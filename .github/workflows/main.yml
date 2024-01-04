@@ -33,8 +33,7 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_order: pinned, starred, random
           plugin_repositories_pinned: 3
-
-          plugin_isocalendar: yes
+          plugin_skyline: yes
           plugin_isocalendar_duration: half-year
 
 
