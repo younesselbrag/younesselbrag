@@ -15,20 +15,20 @@ jobs:
       - uses: UniverseFly/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: UniverseFly
+          user: younesselbrag
           template: classic
           base: header, activity, community, repositories, metadata
           repositories_affiliations: owner, collaborator
           config_timezone: America/Chicago
 
-          # plugin_languages: yes
-          # plugin_languages_skipped: eclipse.jdt.ls
-          # plugin_languages_categories: programming
-          # plugin_languages_details: bytes-size, percentage
-          # plugin_languages_colors: github
-          # plugin_languages_limit: 6
-          # plugin_languages_sections: most-used
-          # plugin_languages_threshold: 0%
+          plugin_languages: yes
+          plugin_languages_skipped: eclipse.jdt.ls
+          plugin_languages_categories: programming
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_colors: github
+          plugin_languages_limit: 6
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
 
           plugin_repositories: yes
           plugin_repositories_order: pinned, starred, random
@@ -36,3 +36,5 @@ jobs:
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
+

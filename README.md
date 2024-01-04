@@ -1,6 +1,7 @@
-### Hi there 👋  🏡 [Yuxiang's Home Page](https://youness-elbrag.github.io) 🏠
+### Hi there 👋  🏡 [Youness's Home Page](https://youness-elbrag.github.io) 🏠
 
-![Metrics](/github-metrics.svg)
-
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>
 
 
